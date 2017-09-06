@@ -3,6 +3,7 @@ function dwarfRollCall(dwarves) {
   var num = 1;
   dwarves.forEach(function(dwarf) {
     dwarfString += num + ". " + dwarf + " ";
+    num++;
   });
   return dwarfString;
 }
